@@ -1,0 +1,100 @@
+.about
+    min-height: 1422px
+    padding: 50px 0 56px 0
+    &__wrapper
+        display: grid
+        margin: 0 auto
+        grid-template-columns: 380px 760px
+        grid-template-rows: minmax(509px, auto) minmax(200px, auto) minmax(200px, auto)
+        grid-auto-rows: minmax(200px, auto)
+        column-gap: 100px
+        row-gap: 30px
+    &__img
+        width: 370px
+        height: 370px
+    &__text
+        font-family: 'Droid Serif'
+        font-size: 16px
+        font-weight: normal
+        font-stretch: normal
+        font-style: normal
+        line-height: 2.25
+        letter-spacing: normal
+        text-align: left
+        color: #333
+        span
+            font-weight: bold
+    &__title
+        font-family: 'Droid Serif'
+        font-size: 20px
+        font-weight: bold
+        font-stretch: normal
+        font-style: normal
+        line-height: 2.4
+        letter-spacing: 0.5px
+        text-align: left
+        color: #000
+    &__textul
+        list-style-type: square
+    &__divider
+        background-color: #303030
+        width: 2px
+        &_upper
+            margin: 0 0 49px 182px
+            height: 136px
+        &_middle
+            height: 229px
+            margin: 0 0 54px 182px
+        &_under
+            height: 201px
+            margin: 49px 0 0 182px
+    &__literal1
+        width: 300px
+        margin: 0 auto
+    &__literal2
+        width: 135px
+        margin: 0 auto
+        margin-left: 22px
+    &__imggallary
+        display: grid
+        grid-template-columns: repeat(auto-fit, 200px)
+        grid-auto-rows: 200px
+        gap: 50px
+    &__991px
+        display: none
+    &__768px
+        display: none
+    &__576px
+        display: none  
+
+        // img
+        //     margin-top: 50px
+        //     margin-right: 50px
+        //     width: 200px
+        //     height: 200px
+        //     background-color: #e7e7e7
+            // &:hover
+            //     transform: scale(1.1)
+
+#Puls  
+    animation: heartBeat 2s ease infinite 
+    &:hover
+        animation-play-state: paused
+                        
+
+#arealeft
+    grid-row: 1/4
+    grid-column: 1/2
+
+#areatext
+    grid-row: 1/2
+    grid-column: 2/3
+    min-height: 600px
+    margin-top: 83px
+
+
+#imggallary
+    grid-row: 2/4
+    grid-column: 2/3
+    min-height: 500px
+

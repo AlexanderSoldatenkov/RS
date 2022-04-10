@@ -1,0 +1,41 @@
+	.blokimg {
+		display: grid;
+        grid-template-columns: repeat(auto-fit, 200px);
+        grid-auto-rows: 200px;
+        gap: 50px;
+	}
+	#imagenM1, #imagenM2, #imagenM3, #imagenM4, #imagenM5, #imagenM6, #imagenM1_1, #imagenM2_2, #imagenM3_3, #imagenM4_4, #imagenM5_5, #imagenM6_6, #imagenM1_11, #imagenM2_22, #imagenM3_33, #imagenM4_44, #imagenM5_55, #imagenM6_66, #imagenM1_111, #imagenM2_222, #imagenM3_333, #imagenM4_444, #imagenM5_555, #imagenM6_666 {
+		display: inline-block;
+		width: 200px;
+		height: 200px;
+		background-color: #e7e7e7;
+        object-fit: cover;
+	}
+	// .blokimg a img{
+	// 	width: 200px;
+	// 	height: 200px;
+	// }
+	.overlay{
+	display: none;
+	height: auto;
+	left: 0%;
+	position: absolute;
+	top: -50%;
+	width: auto;
+	z-index: 999;
+	}
+	.overlay .overlay_container{
+	display: table-cell;
+	vertical-align: middle;
+	}
+	.overlay_container img{
+	background-color: $mainColour;
+	padding: 10px;
+	left: 50%;
+	transform: translateX(-50%);
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	}
+	.overlay:target {
+	display: table;
+	}

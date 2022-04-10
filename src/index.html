@@ -1,0 +1,837 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="Cache-control" content="public">
+    <title>Разработка веб-сайтов</title>
+    <meta name="title" content="Мое портфолио">
+    <meta name="description" content="Здесь вы сможете ознакомиться с моими работами и узнать больше обо мне">
+
+
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="http://asportfolio.byethost7.com">
+    <meta property="og:title" content="Разработка веб-сайтов с нуля">
+    <meta property="og:description"
+        content="Меня зовут Александр. Буду рад помочь создать ваш индивидуальный проект под ключ. ">
+    <meta property="og:image" content="img/Header.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="http://asportfolio.byethost7.com">
+    <meta property="twitter:title" content="Разработка веб-сайтов с нуля">
+    <meta property="twitter:description"
+        content="Меня зовут Александр. Буду рад помочь создать ваш индивидуальный проект под ключ. ">
+    <meta property="twitter:image" content="img/Header.png">
+
+    <!-- Favicon  -->
+    <link rel="apple-touch-icon" sizes="57x57" href="icons/favicon//apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="icons/favicon//apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="icons/favicon//apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="icons/favicon//apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="icons/favicon//apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="icons/favicon//apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="icons/favicon//apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="icons/favicon//apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="icons/favicon//apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="icons/favicon//android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon//favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="icons/favicon//favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon//favicon-16x16.png">
+    <link rel="manifest" href="icons/favicon//manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="icons/favicon//ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul class="menu">
+                <li class="menu_item"> <a href="#about" class="menu_link">обо мне</a></li>
+                <li class="menu_item"><a href="#projects" class="menu_link">сертификаты</a></li>
+                <li class="menu_item"><a href="#work" class="menu_link"> МОИ РАБОТЫ</a></li>
+                <li class="menu_item"><a href="#technology" class="menu_link">ТЕХНОЛОГИИ</a></li>
+                <li class="menu_item"><a href="#contacts" class="menu_link"> ПРАЙС-ЛИСТ</a></li>
+                <li class="menu_item"><a href="#contacts" class="menu_link"> КОНТАКТЫ</a></li>
+
+            </ul>
+        </nav>
+
+        <div id="vision" class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+
+
+    <menu class="hiddenmenu">
+        <div class="hiddenmenu__block">
+            <div class="hiddenmenu__close">
+                <svg width="29" height="30" viewbox="0 0 29 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M17.1568 14.5231L28.4489 3.23075C29.1837 2.49623 29.1837 1.30861 28.4489 0.574085C27.7144 -0.160437 26.5267 -0.160437 25.7922 0.574085L14.4998 11.8665L3.20781 0.574085C2.47295 -0.160437 1.28567 -0.160437 0.551149 0.574085C-0.183716 1.30861 -0.183716 2.49623 0.551149 3.23075L11.8432 14.5231L0.551149 25.8155C-0.183716 26.55 -0.183716 27.7376 0.551149 28.4721C0.917206 28.8385 1.39852 29.0226 1.87948 29.0226C2.36045 29.0226 2.84141 28.8385 3.20781 28.4721L14.4998 17.1798L25.7922 28.4721C26.1586 28.8385 26.6396 29.0226 27.1205 29.0226C27.6015 29.0226 28.0825 28.8385 28.4489 28.4721C29.1837 27.7376 29.1837 26.55 28.4489 25.8155L17.1568 14.5231Z"
+                        fill="black" />
+                </svg>
+
+            </div>
+            <div>
+                <ul class="title hiddenmenu__list">
+                    <li class="hiddenmenu__link"><a href="#about">обо мне</a></li>
+                    <li class="hiddenmenu__link"><a href="#projects">сертификаты</a></li>
+                    <li class="hiddenmenu__link"><a href="#work">МОИ РАБОТЫ</a></li>
+                    <li class="hiddenmenu__link"><a href="#technology">ТЕХНОЛОГИИ</a></li>
+                    <li class="hiddenmenu__link"><a href="#contacts">ПРАЙС-ЛИСТ</a></li>
+                    <li class="hiddenmenu__link"><a href="#contacts">КОНТАКТЫ</a></li>
+                </ul>
+            </div>
+            <div class="hiddenmenu__sotial">
+                <a class="hiddenmenu__sotial_link" href="https://wa.me/79114896222">
+                    <img src="icons/social/whatsapp.png" alt="whatsapp">
+
+                </a>
+                <a class="hiddenmenu__sotial_link" href="mailto:xspikyx@gmail.com">
+                    <img src="icons/social/email.png" alt="email">
+                </a>
+                <a class="hiddenmenu__sotial_link" href="viber://add?number=79114896222">
+                    <img src="icons/social/viber.png" alt="viber">
+
+                </a>
+            </div>
+        </div>
+        <div class="hiddenmenu__overlay"></div>
+    </menu>
+
+    <aside class="sidepanel">
+        <a href="https://wa.me/79114896222" class="sidepanel__link">
+            <img src="icons/social/whatsapp.png" alt="whatsapp">
+
+
+        </a>
+        <a href="mailto:xspikyx@gmail.com" class="sidepanel__link">
+            <img src="icons/social/email.png" alt="email">
+
+
+        </a>
+        <a href="viber://add?number=79114896222" class="sidepanel__link">
+            <img src="icons/social/viber.png" alt="viber">
+
+
+        </a>
+        <div class="sidepanel__divider"></div>
+        <div class="sidepanel__text"> <span>Контакты</span> </div>
+    </aside>
+
+
+
+
+    <section class="main" id="up">
+        <h1 class="main_aboutMe">Web-dev.</h1>
+        <h1 class="main_aboutMe main_adaptive">Web</h1>
+        <div class="main_hrline"></div>
+        <div class="main_descr"> Привет, меня зовут Александр, Я создаю <br>сайты под ключ </div>
+
+        <!-- <img class="main_img" src="img/Header.png" alt=""> -->
+        <div class="main_img"></div>
+    </section>
+
+
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about__wrapper">
+                <div id="areatext">
+                    <h2 class="about__title">Чем я буду вам полезен и какими навыками обладаю</h2>
+                    <div class="about__text">Меня зовут Александр. Я занимаюсь разработкой
+                        веб-сайтов. Буду рад помочь создать ваш индивидуальный проект. <br>
+
+                        Образование: высшее полное, ВНУ им. В. Даля по специальности
+                        "Компьютерно-интегрированные технологические процессы и производства" <br>
+                        <span>Пройденные курсы:</span> <br>
+                        <ul class="about__textul">
+                            <li>WEB-разработчик 2021. Автор курса: Иван Петриченко.</li>
+                            <li>Эффективный курс по HTML и CSS. Верстка любых сайтов легко. Автор курса: Самвел Погосов.
+                            </li>
+                            <li>Веб разработка - с нуля до профессионала. Full Stack. Автор курса: YouRa Allakhverdov.
+                            </li>
+                        </ul> <br id="projects">
+                        Ниже представленны сертификаты пройденных курсов и документы об образовании.
+
+                    </div>
+
+
+                </div>
+
+                <div id="arealeft">
+
+                    <div class="about__divider about__divider_upper"></div>
+                    <div class="title about__literal1">обо мне</div>
+                    <img src="img/370px.png" alt="" class="about_img">
+
+                    <div class="about__divider about__divider_middle"></div>
+                    <div class="title about__literal2">сертификаты</div>
+                    <div class="about__divider about__divider_under"></div>
+                </div>
+
+
+                <div id="imggallary">
+                    <!-- <div class="about__imggallary">
+                        <a href="https://1c-integra.com/" target="_blank"><img id="first"
+                                src="img/works/1c-integra.com.png" alt="1c-integra"></a>
+
+                        <a href="https://promalpservice.com/" target="_blank"><img
+                                src="img/works/promalpservice.com.png" alt="promalpservice"></a>
+                        <a href="https://masterpromalp.ru/" target="_blank"><img src="img/works/masterpromalp.ru.png"
+                                alt="masterpromalp"></a>
+                        <a href="/Uber_site" target="_blank"><img src="img/works/Uber.png" alt="uber"></a>
+                        <a href="/Puls" target="_blank"><img src="img/works/Puls.png" alt="Puls" id="Puls"></a>
+                        <a href="/LP" target="_blank"><img src="img/works/LP.png" alt="landing page"></a>
+                    </div> -->
+
+                    <div class="blokimg about__imggallary">
+
+                        <div class="about__fullscreen">
+                            <div class="overlay" id="contenedor1">
+                                <div class="overlay_container">
+                                    <a href="#close">
+                                        <img src="img/web_developer_2021.png" />
+                                        <!-- <img srcset="img/web320.png 320w,
+                                                    img/web576.png 576w,
+                                                    img/web768.png 768w,
+                                                    img/web_developer_2021.png 950w" 
+                                                    sizes="
+                                                    (max-width: 576px) 320px,
+                                                    (max-width: 768px) 576px, 
+                                                    (max-width: 991px) 950x,  
+                                                    800px" 
+                                                    src="img/web_developer_2021.png" 
+                                                    alt="Web developer 2021"> -->
+                                    </a>
+                                </div>
+                            </div>
+                            <a href="#contenedor1">
+                                <img src="img/s1.png" id="imagenM1" />
+                            </a>
+                        </div>
+
+                        <div class="about__fullscreen">
+                            <div class="overlay" id="contenedor2">
+                                <div class="overlay_container">
+                                    <a href="#close">
+                                        <img src="img/diploma_1.png" />
+                                    </a>
+                                </div>
+                            </div>
+                            <a href="#contenedor2">
+                                <img src="img/dipl_1.png" id="imagenM2" />
+                            </a>
+                        </div>
+
+                        <div class="about__fullscreen">
+                            <div class="overlay" id="contenedor3">
+                                <div class="overlay_container">
+                                    <a href="#close">
+                                        <img src="img/diploma_2.png" />
+                                    </a>
+                                </div>
+                            </div>
+                            <a href="#contenedor3">
+                                <img src="img/dipl_2.png" id="imagenM3" />
+                            </a>
+                        </div>
+
+                        <div class="about__fullscreen">
+                            <div class="overlay" id="contenedor4">
+                                <div class="overlay_container">
+                                    <a href="#close">
+                                        <img src="img/Web.png" />
+                                    </a>
+                                </div>
+                            </div>
+                            <a href="#contenedor4">
+                                <img src="img/s2.png" id="imagenM4" />
+                            </a>
+                        </div>
+
+                        <div class="about__fullscreen" >
+                            <div class="overlay" id="contenedor5">
+                                <div class="overlay_container">
+                                    <a href="#close">
+                                        <img src="img/Full_stack_950px.jpg" />
+                                    </a>
+                                </div>
+                            </div>
+                            <a href="#contenedor5">
+                                <img src="img/Full_stack.png" id="imagenM5" />
+                            </a>
+                        </div>
+
+                        <!-- <div class="about__fullscreen" >
+                            <div class="overlay" id="contenedor6">
+                                <div class="overlay_container">
+                                    <a href="#close">
+                                        <img src="img/usability.png" />
+                                    </a>
+                                </div>
+                            </div>
+                            <a href="#contenedor6">
+                                <img src="img/370px.png" id="imagenM6" />
+                            </a>
+                        </div> -->
+
+                        <div class="about__991px">
+                            <div class="overlay" id="contenedor1_1">
+                                <div class="overlay_container">
+                                    <a href="#close">
+                                        <img src="img/web768.png" />
+                                    </a>
+                                </div>
+                            </div>
+                            <a href="#contenedor1_1">
+                                <img src="img/s1.png" id="imagenM1_1" />
+                            </a>
+                        </div>
+
+                        <div class="about__991px">
+                            <div class="overlay" id="contenedor2_2">
+                                <div class="overlay_container">
+                                    <a href="#close">
+                                        <img src="img/diploma_1_768.png" />
+                                    </a>
+                                </div>
+                            </div>
+                            <a href="#contenedor2_2">
+                                <img src="img/dipl_1.png" id="imagenM2_2" />
+                            </a>
+                        </div>
+
+                        <div class="about__991px">
+                            <div class="overlay" id="contenedor3_3">
+                                <div class="overlay_container">
+                                    <a href="#close">
+                                        <img src="img/diploma_2_750.png" />
+                                    </a>
+                                </div>
+                            </div>
+                            <a href="#contenedor3_3">
+                                <img src="img/dipl_2.png" id="imagenM3_3" />
+                            </a>
+                        </div>
+
+                        <div class="about__991px">
+                            <div class="overlay" id="contenedor4_4">
+                                <div class="overlay_container">
+                                    <a href="#close">
+                                        <img src="img/html_css768.png" />
+                                    </a>
+                                </div>
+                            </div>
+                            <a href="#contenedor4_4">
+                                <img src="img/s2.png" id="imagenM4_4" />
+                            </a>
+                        </div>
+                        
+                        <div class="about__991px" >
+                            <div class="overlay" id="contenedor5_5">
+                                <div class="overlay_container">
+                                    <a href="#close">
+                                        <img src="img/Full_stack_768px.jpg" />
+                                    </a>
+                                </div>
+                            </div>
+                            <a href="#contenedor5_5">
+                                <img src="img/Full_stack.png" id="imagenM5_5" />
+                            </a>
+                        </div>
+
+                        <!-- <div class="about__991px" >
+                            <div class="overlay" id="contenedor6_6">
+                                <div class="overlay_container">
+                                    <a href="#close">
+                                        <img src="img/usability.png" />
+                                    </a>
+                                </div>
+                            </div>
+                            <a href="#contenedor6_6">
+                                <img src="img/370px.png" id="imagenM6_6" />
+                            </a>
+                        </div> -->
+
+                        <div class="about__768px">
+                            <div class="overlay" id="contenedor1_11">
+                                <div class="overlay_container">
+                                    <a href="#close">
+                                        <img src="img/web576.png" />
+                                    </a>
+                                </div>
+                            </div>
+                            <a href="#contenedor1_11">
+                                <img src="img/s1.png" id="imagenM1_11" />
+                            </a>
+                        </div>
+
+                        <div class="about__768px">
+                            <div class="overlay" id="contenedor2_22">
+                                <div class="overlay_container">
+                                    <a href="#close">
+                                        <img src="img/diploma_1_576.png" />
+                                    </a>
+                                </div>
+                            </div>
+                            <a href="#contenedor2_22">
+                                <img src="img/dipl_1.png" id="imagenM2_22" />
+                            </a>
+                        </div>
+
+                        <div class="about__768px">
+                            <div class="overlay" id="contenedor3_33">
+                                <div class="overlay_container">
+                                    <a href="#close">
+                                        <img src="img/diploma_2_550.png" />
+                                    </a>
+                                </div>
+                            </div>
+                            <a href="#contenedor3_33">
+                                <img src="img/dipl_2.png" id="imagenM3_33" />
+                            </a>
+                        </div>
+
+                        <div class="about__768px">
+                            <div class="overlay" id="contenedor4_44">
+                                <div class="overlay_container">
+                                    <a href="#close">
+                                        <img src="img/html_css576.png" />
+                                    </a>
+                                </div>
+                            </div>
+                            <a href="#contenedor4_44">
+                                <img src="img/s2.png" id="imagenM4_44" />
+                            </a>
+                        </div>
+
+                        <div class="about__768px" >
+                            <div class="overlay" id="contenedor5_55">
+                                <div class="overlay_container">
+                                    <a href="#close">
+                                        <img src="img/Full_stack_576px.jpg" />
+                                    </a>
+                                </div>
+                            </div>
+                            <a href="#contenedor5_55">
+                                <img src="img/Full_stack.png" id="imagenM5_55" />
+                            </a>
+                        </div>
+
+                      <!--   <div class="about__768px" >
+                            <div class="overlay" id="contenedor6_66">
+                                <div class="overlay_container">
+                                    <a href="#close">
+                                        <img src="img/usability.png" />
+                                    </a>
+                                </div>
+                            </div>
+                            <a href="#contenedor6_66">
+                                <img src="img/370px.png" id="imagenM6_66" />
+                            </a>
+                        </div> -->
+
+
+                        <div class="about__576px">
+                            <div class="overlay" id="contenedor1_111">
+                                <div class="overlay_container">
+                                    <a href="#close">
+                                        <img src="img/web320.png" />
+                                    </a>
+                                </div>
+                            </div>
+                            <a href="#contenedor1_111">
+                                <img src="img/s1.png" id="imagenM1_111" />
+                            </a>
+                        </div>
+
+                        <div class="about__576px">
+                            <div class="overlay" id="contenedor2_222">
+                                <div class="overlay_container">
+                                    <a href="#close">
+                                        <img src="img/diploma_1_320.png" />
+                                    </a>
+                                </div>
+                            </div>
+                            <a href="#contenedor2_222">
+                                <img src="img/dipl_1.png" id="imagenM2_222" />
+                            </a>
+                        </div>
+
+                        <div class="about__576px">
+                            <div class="overlay" id="contenedor3_333">
+                                <div class="overlay_container">
+                                    <a href="#close">
+                                        <img src="img/diploma_2_300.png" />
+                                    </a>
+                                </div>
+                            </div>
+                            <a href="#contenedor3_333">
+                                <img src="img/dipl_2.png" id="imagenM3_333" />
+                            </a>
+                        </div>
+
+                        <div class="about__576px">
+                            <div class="overlay" id="contenedor4_444">
+                                <div class="overlay_container">
+                                    <a href="#close">
+                                        <img src="img/html_css320.png" />
+                                    </a>
+                                </div>
+                            </div>
+                            <a href="#contenedor4_444">
+                                <img src="img/s2.png" id="imagenM4_444" />
+                            </a>
+                        </div>
+
+                        <div class="about__576px" >
+                            <div class="overlay" id="contenedor5_555">
+                                <div class="overlay_container">
+                                    <a href="#close">
+                                        <img src="img/Full_stack_320px.jpg" />
+                                    </a>
+                                </div>
+                            </div>
+                            <a href="#contenedor5_555">
+                                <img src="img/Full_stack.png" id="imagenM5_555" />
+                            </a>
+                        </div>
+
+                        <!-- <div class="about__576px" >
+                            <div class="overlay" id="contenedor6_666">
+                                <div class="overlay_container">
+                                    <a href="#close">
+                                        <img src="img/usability.png" />
+                                    </a>
+                                </div>
+                            </div>
+                            <a href="#contenedor6_666">
+                                <img src="img/370px.png" id="imagenM6_666" />
+                            </a>
+                        </div> -->
+
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <section class="outline">
+        <div class="container">
+            <div class="outline__wrapper">
+
+                <div class="outline__set1">
+
+                    <div class="outline__descr outline__descr_head outline__descr_head-hidden">
+                        <div id="outline__title_head" class="title outline__title_head">интерактивные элементы</div>
+                        <div class="outline__interactiveelement">
+                            <div class="outline__text-position">
+                                <div class="outline__divider"></div>
+                                <div class="outline__text">С помощью CSS я могу создавать анимации, подсветки и прочие
+                                    элементы, которые будут привлекать внимание пользователей сайта и придавать ему
+                                    эстетический вид </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <img src="img/adaptation.png" alt="" class="outline__imgtop">
+                    <div class="outline__descr outline__descr_imgtop">
+                        <div class="outline__title">адаптация<br></div>
+                        <div class="outline__text-position">
+                            <div class="outline__divider"></div>
+                            <div class="outline__text">Делаю адаптацию сайтов под любые устройства и разрешения экранов.
+                                В
+                                процессе решаем вопросы
+                                дизайна </div>
+                        </div>
+
+                    </div>
+                    <div class="outline__hidden2">
+                        <img src="img/usability.png" alt="" class="outline__imgmiddle">
+                        <div class="outline__descr outline__descr_imgmiddle">
+                            <div class="outline__title">удобство использования</div>
+                            <div class="outline__text-position">
+                                <div class="outline__divider"></div>
+                                <div class="outline__text"> Для владельцев сайта есть возможность интеграции с системой
+                                    WordPress, что позволяет в дальнейшем владельцам самостоятельно редактировать
+                                    наполнение
+                                    сайта легко и без лишних расходов</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <img src="img/interface.png" alt="" class="outline__imgbottom">
+                    <div class="outline__descr outline__descr_imgbottom">
+                        <div class="outline__title outline__title_imgbottom">настройка интерфейса</div>
+                        <div class="outline__text-position">
+                            <div class="outline__divider"></div>
+                            <div class="outline__text">Настройка элементов взаимодействия с сайтом делается максимально
+                                удобной для
+                                пользователей. Во всех своих проектах я стараюсь делать их максимально простыми
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div class="outline__set2">
+                    <div class="outline__hidden3">
+                        <div class="outline__descr outline__descr_head">
+                            <div class="title outline__title_head">интерактивные элементы</div>
+                            <div class="outline__text-position">
+                                <div class="outline__divider"></div>
+                                <div class="outline__text">С помощью CSS я могу создавать анимации, подсветки и прочие
+                                    элементы, которые будут привлекать внимание пользователей сайта и придавать ему
+                                    эстетический вид</div>
+                            </div>
+                        </div>
+
+                        <img src="img/usability.png" alt="" class="outline__imgmiddle">
+                        <div class="outline__descr outline__descr_imgmiddle">
+                            <div class="outline__title">удобство использования</div>
+                            <div class="outline__text-position">
+                                <div class="outline__divider"></div>
+                                <div class="outline__text"> Для владельцев сайта есть возможность интеграции с системой
+                                    WordPress, что позволяет в дальнейшем владельцам самостоятельно редактировать
+                                    наполнение
+                                    сайта легко и без лишних расходов</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="work" class="technology">
+        <div class="container">
+            <div class="technology__dividertop"></div>
+
+            <div id="technology__title" class="title technology__title">мои работы</div>
+            <div class="technology__dividermiddle"></div>
+            <div class="technology__galary">
+                <a href="https://1c-integra.com/" target="_blank"><img id="integra" src="img/works/1c-integra.com.png"
+                        alt="1c-integra"></a>
+
+                <a href="https://promalpservice.com/" target="_blank"><img src="img/works/promalpservice.com.png"
+                        alt="promalpservice" id="mpr"></a>
+                <a href="https://masterpromalp.ru/" target="_blank"><img src="img/works/masterpromalp.ru.png"
+                        alt="masterpromalp"></a>
+                <a href="/Uber_site" target="_blank"><img src="img/works/Uber.png" alt="uber"></a>
+                <a href="/Puls" target="_blank"><img src="img/works/Puls.png" alt="Puls" id="Puls"></a>
+                <a href="/LP" target="_blank"><img src="img/works/LP.png" alt="landing page"></a>
+            </div>
+
+
+
+            <div class="technology__dividerbottom"></div>
+        </div>
+    </section>
+
+    <section id="technology" class="awards">
+        <div class="container">
+            <div id="awards__title" class="title awards__title">применяемые технологии</div>
+            <div class="awards__divider"></div>
+            <div class="awards__wrapper">
+                <div class="awards__gridelement awards__gridelement_1">
+                    <img src="icons/skills/html5.svg" alt="HTML5">
+                    <div class="awards__gridelement_text">HTML5 </div>
+                    <div class="awards__gridelement_text-descr">Именно он создает каркас вашего сайта или приложения, а
+                        пятая версия позволяет создавать более SEO-оптимизированную структуру вашего продукта</div>
+                </div>
+                <div class="awards__gridelement awards__gridelement_2">
+                    <img src="icons/skills/css3.svg" alt="CSS3">
+                    <div class="awards__gridelement_text">CSS3</div>
+                    <div class="awards__gridelement_text-descr">Этот язык стилей позволяет мне создавать абсолютно любой
+                        внешний вид сайта или приложения. Все ограничивается только вашей фантазией!</div>
+                </div>
+                <div class="awards__gridelement awards__gridelement_3">
+                    <img src="icons/skills/js.svg" alt="Java Script">
+                    <div class="awards__gridelement_text">Java Script</div>
+                    <div class="awards__gridelement_text-descr">Этот язык программирования позволяет оживить все что
+                        угодно: слайдеры, окна, подсказки, вкладки, получение данных от сервера и многое другое</div>
+                </div>
+                <div class="awards__gridelement awards__gridelement_4">
+                    <img src="icons/skills/jquery.svg" alt="Jquery">
+                    <div class="awards__gridelement_text">Jquery</div>
+                    <div class="awards__gridelement_text-descr">Библиотека Jquery позволит ускорить разработку. Без
+                        необходимости интегрировать в проект мы её не будем, но навык работы с ней присутствует</div>
+                </div>
+
+                <!-- <div class="awards__gridelement awards__gridelement_5">
+                    <img src="icons/skills/mongo.db.svg" alt="Mnogo.db">
+                    <div class="awards__gridelement_text">Mnogo.db</div>
+                    <div class="awards__gridelement_text-descr">Это нереляционная база данных, которая будет хранить
+                        данные вашего сайта или приложения</div>
+                </div> -->
+                <div class="awards__gridelement awards__gridelement_6">
+                    <img src="icons/skills/node.js.svg" alt="Node.js">
+                    <div class="awards__gridelement_text">Node.js</div>
+                    <div class="awards__gridelement_text-descr">Эта платформа позволяет создавать бэкенд для вашего
+                        продукта - “мозги”, которые будут выполнять действия, которые пользователь не видит</div>
+                </div>
+                <!-- <div class="awards__gridelement awards__gridelement_7">
+                    <img src="icons/skills/react.svg" alt="React">
+                    <div class="awards__gridelement_text">React</div>
+                    <div class="awards__gridelement_text-descr">Эта библиотека позволяет создавать web-приложения. Мы
+                        можем создать максимально интерактивный продукт именно под ваши цели</div>
+                </div> -->
+                <div class="awards__gridelement awards__gridelement_8">
+                    <img src="icons/skills/WordPress.svg" alt="WordPress">
+                    <div class="awards__gridelement_text">WordPress</div>
+                    <div class="awards__gridelement_text-descr">Благодаря этой интерактивной системе взаимодействия,
+                        администратору сайта будет легко добавить необходимые настройки на сайт. Знание
+                        програмирования администратору сайта требуется.</div>
+                </div>
+                <div class="awards__descr">
+                    <div class="awards__descr_title">Модульное построение сайта</div>
+                    <div class="awards__descr_text"> <br> Сочетая современные подходы по созданию
+                        веб-сайтов - можно настроить интерфейсы взаимодействия пользователя и администратора c сайтом
+                        максимально гибко и удобно. <br>
+                        <p>При этом сайт будет иметь максимальный функционал, красивый дизайн и быструю скорость
+                            загрузки.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="get">
+
+        <div id="get__main" class="outline__descr outline__descr_imgmiddle get__descr">
+            <div class="outline__title get__title">гарантия качества</div>
+            <div class="outline__text-position">
+                <div class="outline__divider"></div>
+                <div class="outline__text get__text">После согласования ТЗ с заказчиком и внесением предоплаты,
+                    начинается разработка сайта. По завершении проект демонстрируется клиенту, при необходимости,
+                    вносятся доработки. И так до получения 100%-го результата.</div>
+            </div>
+
+        </div>
+        <img src="img/quality.png" alt="" class="get__img">
+
+    </section>
+
+    <section class="contacts" id="contacts">
+        <div class="container">
+            <div class="contacts__verticaldiv"></div>
+            <h2 class="title">Контакты</h2>
+            <div class="contacts__horizontaldiv"></div>
+            <div class="contacts__wrapper">
+                <div class="contacts__price">
+                    <h3 class="contacts__form_title">Прайс лист на услуги:</h3>
+                    <div class="contacts__price_item">
+                        <div class="contacts__price_item-name">Landing-page</div>
+                        <div class="contacts__price_item-price">от 8000 руб.</div>
+                        <div class="contacts__price_item-descr">Одностраничный сайт для презентации услуг/товаров/...
+                        </div>
+                    </div>
+                    <div class="contacts__price_item">
+                        <div class="contacts__price_item-name">Сайт на Wordpress</div>
+                        <div class="contacts__price_item-price">от 8000 руб.</div>
+                        <div class="contacts__price_item-descr">Сайт с любой многоуровневой структурой</div>
+                    </div>
+                    <div class="contacts__price_item">
+                        <div class="contacts__price_item-name">Корпоративный сайт</div>
+                        <div class="contacts__price_item-price">от 20000 руб.</div>
+                        <div class="contacts__price_item-descr">Сайт для вашего бизнеса или компании</div>
+                    </div>
+                    <div class="contacts__price_item">
+                        <div class="contacts__price_item-name">Интернет-магазин</div>
+                        <div class="contacts__price_item-price">от 30000 руб.</div>
+                        <div class="contacts__price_item-descr">Инструмент для ваших продаж в сети</div>
+                    </div>
+
+                    <div class="contacts__price_item">
+                        <div class="contacts__price_item-name">Дизайн</div>
+                        <div class="contacts__price_item-price">Индивидуально</div>
+                        <div class="contacts__price_item-descr">Наглядно, подберем под ваши нужды</div>
+                    </div>
+
+                </div>
+
+                <div class="contacts__form_wrapper">
+                    <!-- <div class="contacts__data"></div> -->
+                    <div class="contacts__form_title">Оставьте ваши данные и я свяжусь с вами:</div>
+                    <form action="#" class="contacts__form">
+                        <div class="contacts__input">
+                            <input required name="name" type="text" id="name">
+                            <label for="name">Ваше имя</label>
+                        </div>
+
+                        <div class="contacts__input">
+                            <input required name="email" type="email" id="email">
+                            <label for="email">Ваша почта</label>
+                        </div>
+
+                        <div class="contacts__textarea">
+                            <textarea required name="text" id="text"></textarea>
+                            <label for="text">Ваше сообщение</label>
+                        </div>
+                        <div class="contacts__triggers">
+                            <button class="button contacts_btn">Отправить сообщение</button>
+                            <div class="contacts__policy">
+                                <input required type="checkbox">
+                                <span>Я согласен(а) с <a href="/policy.html">политикой конфиденциальности</a></span>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="contacts__more"> <span>*&nbsp;</span> В <span>прайс-листе</span> освещены самые основные
+                позиции. По остальным вопросам обращайтесь ко мне на почту: <a
+                    href="mailto:xspikyx@gmail.com">xspikyx@gmail.com</a> </div>
+
+            <div class="overlay__thankyou">
+                <div class="modal modal_mini" id="thanks">
+                    <div class="modal__close">&times;</div>
+                    <div class="modal__subtitle">
+                        Спасибо за ваше обращение!
+                    </div>
+                    <div class="modal__descr">Я постараюсь ответить вам как можно скорее.</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <a href="#up" class="pageup">
+        <img src="icons/angle-up-solid.svg" alt="up">
+    </a>
+
+    <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="js/blowup.min.js"></script> -->
+
+    <!-- <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="js/easyzoom.js"></script> -->
+    <!-- <script src="js/simple-lightbox.js"></script> -->
+
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/jquery.maskedinput.min.js"></script>
+    <script src="js/wow.min.js"></script>
+
+    <script src="https://kit.fontawesome.com/28acb69e44.js" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

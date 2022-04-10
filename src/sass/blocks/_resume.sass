@@ -1,0 +1,26 @@
+.resume
+    
+    &__wrapper
+        padding: 60px 65px 0 65px
+        display: grid
+        grid-template-columns: repeat (2, 425px )
+        column-gap: 135px
+    &__column
+        ul
+            list-style-type: none
+        &-title
+            position: relative
+            padding-left: 35px
+            left: 0
+            top: 50%
+            transform: translateY(50%)
+            &::before
+                content: ''
+                position: absolute
+                width: 15px
+                height: 15px
+                border-radius: 100%
+                background-color: $mainColour
+
+
+
