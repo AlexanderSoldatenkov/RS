@@ -1,0 +1,245 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    position: relative;
+}
+
+nav {
+    position: fixed;
+    height: 50px;
+    width: 100%;
+    background-color: #212121;
+}
+
+.menu {
+
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 70px;
+    margin: 0;
+    list-style-type: none;
+}
+
+.menu a {
+    text-decoration: none;
+}
+
+.menu .menu_link {
+    font-size: 15px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #fff;
+}
+
+.menu .menu_item {
+    border-right: 2px solid black;
+    padding-right: 28px;
+}
+
+.sub_header {
+    position: absolute;
+    margin-top: 50px;
+    width: 100%;
+    height: 84px;
+    background-color: rgba(0, 0, 0, .6);
+}
+
+.sub_header .sub_header_logo {
+    display: block;
+    margin-top: 16px;
+    max-width: 100%;
+}
+
+.sub_header .sub_header_ofitial {
+    margin-top: 6px;
+    font-size: 13px;
+    font-weight: 100;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.sub_header .sub_header_call {
+    margin-top: 19px;
+    font-size: 12px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: right;
+    color: #fff;
+}
+
+.sub_header .sub_header_fhone {
+    display: block;
+    margin-top: 8px;
+    font-size: 22px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: right;
+    color: #fff;
+    text-decoration: none;
+    line-height: 12px;
+}
+
+.sub_header .sub_header_btn {
+    margin-top: 19px;
+    width: 172px;
+    height: 46px;
+    box-shadow: inset 0px -3px 0 0 rgba(0, 0, 0, 0.12);
+    border: none;
+    border-radius: 4px;
+    background-image: linear-gradient(to top, #1eacc7, #4ce2ff);
+    text-transform: uppercase;
+    text-shadow: 0.7px 0.7px 0 rgba(0, 0, 0, 0.21);
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+}
+
+.promo {
+    min-height: 800px;
+    background: url("../icons/promo_bg.png") center center/cover no-repeat;
+    padding: 150px 0 135px 0;
+}
+
+.promo .promo_header {
+
+    font-size: 60px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    text-transform: uppercase;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+    line-height: 60px;
+    margin: 0;
+    margin-top: 67px;
+}
+
+.promo .promo_subheader {
+    font-size: 36px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    text-transform: uppercase;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+    line-height: 36px;
+    margin: 0;
+    margin-top: 22px;
+}
+
+.promo .promo_descr {
+    margin-top: 23px;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+}
+
+.promo .promo_btn {
+    display: block;
+    margin: 118px auto 0 auto;
+
+    width: 259px;
+    height: 63px;
+    box-shadow: inset 0px -3px 0 0 rgba(0, 0, 0, 0.12);
+    border: none;
+    border-radius: 4px;
+    background-image: linear-gradient(to top, #1eacc7, #4ce2ff);
+    text-transform: uppercase;
+    text-shadow: 0.7px 0.7px 0 rgba(0, 0, 0, 0.21);
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+
+}
+
+.three {
+    min-height: 850px;
+    
+}
+
+.three .three_descr {
+    margin-top: 133px;
+    font-size: 38px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #222;
+    text-transform: uppercase;
+}
+
+.three .three_element {
+    /* margin-top: 39px;
+    margin-bottom: 39px; */
+    /* display: inline-block; */
+    display: block;
+    margin: 0 auto;
+}
+
+.three .three_round {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    width: 116px;
+    height: 116px;
+    border-radius: 100%;
+    background-color:#4ce2ff;
+}
+
+.three .three_icondescr {
+    
+    /* display: inline; */
+    margin: 0 auto;
+    padding: 0px 0 0px 125px;
+    
+    font-size: 15px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    /* line-height: 1.4; */
+    letter-spacing: normal;
+    text-align: justify;
+   
+    color: #202020;
+}
+.three .three_three_icondescr_h3 {
+    font-style: normal;
+font-weight: normal;
+font-size: 17px;
+line-height: 21px;
+/* or 124% */
+
+
+align-items: center;
+
+color: #1EACC7;
+}

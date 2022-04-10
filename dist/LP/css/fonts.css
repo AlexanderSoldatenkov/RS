@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/BerndalLTStd/');
+    src: local('Berndal LT Std BoldItalic'), local('BerndalLTStd-BoldItalic'),
+        url('BerndalLTStd/?#iefix') format('embedded-opentype'),
+        url('BerndalLTStd/BerndalLTStd-BoldItalic.woff2') format('woff2'),
+        url('BerndalLTStd/BerndalLTStd-BoldItalic.woff') format('woff'),
+        url('BerndalLTStd/BerndalLTStd-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}

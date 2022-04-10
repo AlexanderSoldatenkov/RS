@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: honeydew;
+    color: black;
+    font-size: 18px;
+}
+
+/* .bg {
+    width: 1920px;
+    height: 6370px;
+    padding: 55px 65px 59px;
+  }
+
+.slider{
+    width: 1660px;
+    height: 780px;
+    margin: 52px 54px 50px 65px;
+    padding: 380px 763px 230px 91px;
+    background-color: #e7e7e7;
+} */
+
+.promo {
+    height: 952px;
+    /* background: url(../bg/); */
+}
